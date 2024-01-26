@@ -59,7 +59,7 @@ function disbledButton() {
     buttonDescriptografia.setAttribute("disabled", "true");
     let divParaOtexto = document.querySelector(".criptografado");
     divParaOtexto.innerHTML = `
-    <img src="/assents/img/High quality products 1 1.svg" alt="" />
+    <img src="./assents/img/High quality products 1 1.svg" alt="" />
     <h3>Nenhuma mensagem encontrada</h3>
     <p>Digite um texto que você deseja criptografar ou descriptografar.</p>`;
   }
