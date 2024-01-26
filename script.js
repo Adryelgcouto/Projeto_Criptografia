@@ -92,6 +92,7 @@ function descriptografar() {
   divParaOtexto.innerHTML = `<p class='criptP'>${textoDescriptografado}</p>
   <button onclick="copiar()" >COPIAR</button>
   `;
+  acentoMausculas()
 }
 function copiar() {
   let texteCop = document.querySelector(".criptP");
