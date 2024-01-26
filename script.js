@@ -60,8 +60,8 @@ function disbledButton() {
     let divParaOtexto = document.querySelector(".criptografado");
     divParaOtexto.innerHTML = `
     <img src="./assents/img/High quality products 1 1.svg" alt="" />
-    <h3>Nenhuma mensagem encontrada</h3>
-    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>`;
+        <h3>Nenhuma mensagem encontrada</h3>
+        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>`;
   }
 }
 function valorCriptografar() {
@@ -92,7 +92,7 @@ function descriptografar() {
   divParaOtexto.innerHTML = `<p class='criptP'>${textoDescriptografado}</p>
   <button onclick="copiar()" >COPIAR</button>
   `;
-  acentoMausculas()
+  acentoMausculas();
 }
 function copiar() {
   let texteCop = document.querySelector(".criptP");
